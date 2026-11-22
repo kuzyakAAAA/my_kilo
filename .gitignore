@@ -1,0 +1,26 @@
+# сборка
+build/
+cmake-build-*/
+*.o
+*.a
+*.out
+
+# исполняемые файлы
+kilo
+kilo_cpp
+kilo_original/kilo
+
+# отладка на маке
+*.dSYM/
+
+# логи отладки и тестовые файлы
+*.log
+test*.txt
+
+# служебные файлы
+.DS_Store
+.idea/
+.vscode/
+
+# локальные заметки
+z.txt
